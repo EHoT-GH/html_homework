@@ -1,0 +1,137 @@
+@font-face {
+	font-family: Bebas;
+	src: url(../fonts/BEBAS-webfont.ttf);
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url(../fonts/OpenSans-Regular-webfont.ttf);
+}
+h1 {
+	font-family: Bebas;	
+	font-size: 24px;
+	line-height: ;
+	color: #e8603c;
+}
+h2 {
+	font-family: Bebas;
+	font-size: 20px;
+	line-height: ;
+	color: #e8603c;
+}
+h3 {
+	font-family: Bebas;
+	font-size: 18px;
+	line-height: ;
+	color: #e8603c;
+}
+h4 {
+	font-family: Bebas;
+	font-size: 14px;
+	line-height: ;
+	color: #e8603c;
+}
+p {
+	font-family: "Open Sans";
+	font-size: 12px;
+	line-height: 18px;
+}
+.wrapper {
+	width: 960px;
+	padding: 0 10px;
+	margin: auto;
+	box-sizing: border-box;
+}
+header {
+	width: 100%;
+}
+.logo {
+	display: inline-block;
+}
+header .logo-first {
+	font-family: Bebas;
+	font-size: 36px;
+	color: #e8603c;
+	display: inline-block;
+}
+header .logo-second {
+	font-family: Bebas;
+	font-size: 36px;
+	color: #f3af9d;
+	display: inline-block;
+}
+.main_menu {
+	display: inline-block;
+	float: right;
+}
+.main_menu li{
+	list-style: none;
+	display: inline-block;
+}
+.main_menu ul li a {
+	padding: 0 12px;
+	font-family: Bebas;
+	font-size: 16px;
+	color: #b9b9b9;
+	text-decoration: none;
+}
+.main_menu ul li a.selected_nav_option {
+	color: #e8603c;
+}
+.title {
+	height: 61px;
+	background: #e8603c;
+	color: #fff;
+	font-family: Bebas;
+	font-size: 24px;
+}
+main {
+	position: relative;
+}
+.content {
+	width: 700px;
+	font-family: "Open Sans", sans-serif;
+	display: inline-block;
+	position: absolute;
+	top: 24px;
+}
+.sidebar {
+	width: 220px;
+	display: inline-block;
+	position: absolute;
+	top: 24px;
+	right: 0
+}
+.mike_img {
+	float: left;
+	margin-right: 22px; 
+	padding: 2px;
+	border: 1px solid #cccccc;
+}
+.sidebar_ctegories ul {
+	padding: 0;
+	list-style-type: none;
+}
+.sidebar_ctegories ul li a {
+	font-family: "Open Sans";
+	font-size: 12px;
+	text-decoration: none;
+	color: #464646;
+}
+.sidebar h4 {
+	display: inline-block;
+	margin-right: 14px;
+}
+.decor_line {
+	width: 100%;
+	height: 13px;
+	background: #ccc;
+	display: inline-block;
+}
+.photo {
+	width: 50px;
+	height: 50px;
+	background: #f3af9d;
+	border: 1px solid #e8603c;
+	box-sizing: border-box;
+	display: inline-block;
+}

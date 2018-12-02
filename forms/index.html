@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            fieldset {
+                border: 1px solid grey;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+
+            label {
+                width: 150px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+    	    <div id="main">
+    		    <div id="container">
+    			    <div id="content" role="main">
+                        <h2 title="this is title and how long he can be i don't know at all and i would like to know it now">Order Form</h2>
+                        <form action="">
+                            <fieldset>
+                                <legend>General Info</legend>
+                                <label for="email">Email</label><input type="email" placeholder="your@email.com" required id="email"><br>
+                                <label for="login">Login</label><input type="text" placeholder="Login" required id="login" pattern="ˆ[A-Za-zА-Яа-яЁё1-3]*$"><br>
+                                <label for="password">Password</label><input type="password" placeholder="Password" required id="password">
+                            </fieldset>
+                        </form><br>
+                        <form action="">
+                            <fieldset>
+                                <legend>User info</legend>
+                                <label for="firstName">First Name</label><input type="text" placeholder="John" required id="firstName" pattern="[A-Za-zА-Яа-яЁё]"><br>
+                                <label for="lastName">Second Name</label><input type="text" placeholder="Doe" required id="lastName" pattern="[A-Za-zА-Яа-яЁё]"><br>
+                                <label for="">Gender</label>
+                                    Male<input type="checkbox" checked>
+                                    Female<input type="checkbox"><br>
+                                <label for="age">Age</label><input type="text" placeholder="32" id="age" readonly><br>
+                                <label for="userMessage">About me</label><textarea name="" id="userMessage" cols="19" rows="10"></textarea>
+                            </fieldset>
+                        </form><br>
+                        <form action="">
+                            <fieldset>
+                                <legend>Order info</legend>
+                                <label for="productBrend">Product</label>
+                                <select name="" id="productBrend">
+                                    <option value="">iPhone</option>
+                                    <option value="">Samsung</option>
+                                    <option value="">Xiaomi</option>
+                                    <option value="">Huawei</option>
+                                    <option value="">Google Pixel</option>
+                                </select><br>
+                                <label for="">Front Color</label>
+                                    Black<input type="radio" checked>
+                                    Pink<input type="radio"> 
+                                    Gold<input type="radio"><br>
+                                <label for="">Back-side color</label><input type="color"><br>
+                                <label for="amount">Amount</label><input type="text" placeholder="5" id="amount"><br>
+                                <label for="date">Delivery Date</label><input type="date" id="date">
+                            </fieldset>
+                        </form><br>
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
